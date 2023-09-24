@@ -6,7 +6,7 @@ from pygame.locals import *
 pygame.mixer.pre_init(44100, -16, 2, 512)
 pygame.init()
 pygame.mixer.set_num_channels(64)
-
+#deneme
 window_icon = pygame.image.load('data\images\gladoicon.png')# window icon image load
 pygame.display.set_icon(window_icon) # window icon
 pygame.display.set_caption('Last Purpose') #WINDOW NAME
